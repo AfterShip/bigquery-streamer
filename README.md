@@ -31,7 +31,7 @@ var streamer = new Streamer(config);
 streamer.start();
 ```
 ## Config
-```
+```js
 /**
  * Bigquery Streamer Config
  * @typedef {object} StreamerConfig
