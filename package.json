@@ -4,11 +4,10 @@
   "description": "A BigQuery streamer for streaming data from Redis",
   "main": "lib/bigquery-streamer.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository":"https://github.com/AfterShip/redis-bigquery",
   "author": "feiko@aftership.net",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "async": "^0.9.0",
     "bluebird": "^2.5.2",
