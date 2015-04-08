@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "A BigQuery streamer for streaming data from Redis",
   "main": "lib/bigquery-streamer.js",
-  "scripts": {
-  },
-  "repository":"https://github.com/AfterShip/redis-bigquery",
+  "scripts": {},
+  "repository": "https://github.com/AfterShip/redis-bigquery",
   "author": "feiko@aftership.net",
   "license": "MIT",
   "dependencies": {
@@ -20,5 +19,8 @@
     "node-uuid": "^1.4.2",
     "redis": "^0.12.1",
     "string": "^3.0.0"
+  },
+  "devDependencies": {
+    "grunt-jsdoc": "^0.5.8"
   }
 }

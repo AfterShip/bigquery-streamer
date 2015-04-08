@@ -80,6 +80,12 @@ streamer.start();
 ```
 ref
 
+## Update JSDoc
+```
+grunt doc
+
+```
+
 ## Debug
 [Debug-logger](https://www.npmjs.com/package/debug-logger) is used. With environment variable `DEBUG=*`, all debug info will direct to `stdout`.
 
