@@ -19,7 +19,7 @@ This is a streamer to transport Redis records to Google BigQuery using stream in
 
 ##### Install
 ```
-npm install redis-bigquery
+npm install bigquery-streamer
 ```
 
 ##### Start Streamer
