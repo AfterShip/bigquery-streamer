@@ -2,7 +2,7 @@
   "name": "bigquery-streamer",
   "version": "3.0.0",
   "description": "A BigQuery streamer for streaming data from Redis",
-  "main": "lib/bigquery-streamer.js",
+  "main": "lib/streamer.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
