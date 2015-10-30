@@ -1,4 +1,4 @@
-# Redis to BigQuery streamer
+# Bigquery Streamer v3
 
 This is a streamer to transport Redis records to Google BigQuery using stream insert mode.
 
