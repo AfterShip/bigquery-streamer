@@ -14,17 +14,13 @@
   ],
   "dependencies": {
     "bluebird": "^2.10.2",
-    "bluebird-retry": "^0.5.2",
-    "bunyan": "^1.5.1",
     "co": "^4.6.0",
     "co-retry": "^1.0.5",
     "debug-logger": "^0.4.1",
     "gcloud": "^0.24.0",
-    "ioredis": "^1.4.0",
+    "ioredis": "^1.10.0",
     "lodash": "^3.10.1",
     "moment": "^2.8.4",
-    "node-uuid": "^1.4.2",
-    "string": "^3.0.0",
     "weighted": "^0.3.0"
   }
 }
