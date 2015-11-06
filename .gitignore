@@ -1,4 +1,8 @@
 # Created by .ignore support plugin (hsz.mobi)
+
+## IDE
+.idea
+
 ### Node template
 # Logs
 logs
