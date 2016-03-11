@@ -56,6 +56,7 @@ streamer.start();
 	"streamer": {
 		"max_row_size": 16000,
 		"dataset_namespace": "development",
+		"table_format": "YYYYMMDD_KEY",
 		"key_prefix": "logs",
 		"scan_interval": 5000,
 		"send_batch_size": 100,
