@@ -1,0 +1,10 @@
+{
+    "confirm": false,
+    "sensitiveDataAudit": true,
+    "checkUncommitted": true,
+    "checkUntracked": false,
+    "validateGitTag": true,
+    "validateBranch": null,
+    "tag": "latest",
+    "prepublishScript": null
+}
