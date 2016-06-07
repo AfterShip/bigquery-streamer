@@ -1,6 +1,6 @@
 {
   "name": "bigquery-streamer",
-  "version": "3.1.4",
+  "version": "3.2.0",
   "description": "A BigQuery streamer for streaming data from Redis",
   "main": "lib/streamer.js",
   "scripts": {
@@ -17,7 +17,7 @@
     "co": "^4.6.0",
     "co-retry": "^1.0.5",
     "debug-logger": "^0.4.1",
-    "gcloud": "^0.24.0",
+    "gcloud": "^0.29.0",
     "ioredis": "^1.10.0",
     "lodash": "^3.10.1",
     "moment": "^2.8.4",
