@@ -1,6 +1,3 @@
-/**
- * Created by FeikoLai on 9/6/15.
- */
 var Streamer = require('../lib/streamer');
 
 var streamer = new Streamer({

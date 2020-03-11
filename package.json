@@ -1,13 +1,15 @@
 {
   "name": "bigquery-streamer",
-  "version": "3.2.2",
+  "version": "3.2.3",
   "description": "A BigQuery streamer for streaming data from Redis",
   "main": "lib/streamer.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": "https://github.com/AfterShip/redis-bigquery",
-  "author": "feiko@aftership.net",
+  "author": {
+    "name": "AfterShip Limited"
+  },
   "license": "ISC",
   "files": [
     "lib/"
