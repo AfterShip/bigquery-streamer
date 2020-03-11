@@ -21,7 +21,7 @@
     "debug-logger": "^0.4.1",
     "gcloud": "^0.29.0",
     "ioredis": "^1.10.0",
-    "lodash": "^3.10.1",
+    "lodash": "^4.17.15",
     "moment": "^2.8.4",
     "weighted": "^0.3.0"
   }
