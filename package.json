@@ -1,12 +1,12 @@
 {
   "name": "bigquery-streamer",
-  "version": "3.2.5",
+  "version": "4.0.0",
   "description": "A BigQuery streamer for streaming data from Redis",
-  "main": "lib/streamer.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "https://github.com/AfterShip/redis-bigquery",
+  "repository": "https://github.com/AfterShip/bigquery-streamer",
   "author": {
     "name": "AfterShip Limited"
   },
@@ -15,14 +15,11 @@
     "lib/"
   ],
   "dependencies": {
-    "bluebird": "^2.10.2",
-    "co": "^4.6.0",
-    "co-retry": "^1.0.5",
+    "@google-cloud/bigquery": "^4.7.0",
     "debug-logger": "^0.4.1",
-    "gcloud": "^0.29.0",
-    "ioredis": "^1.10.0",
-    "lodash": "^3.10.1",
-    "moment": "^2.8.4",
+    "ioredis": "^4.17.3",
+    "lodash": "^4.17.15",
+    "moment": "^2.26.0",
     "weighted": "^0.3.0"
   }
 }
