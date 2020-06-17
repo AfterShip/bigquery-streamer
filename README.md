@@ -1,4 +1,4 @@
-# Bigquery Streamer v3
+# Bigquery Streamer
 
 This is a streamer to transport Redis records to Google BigQuery using stream insert mode.
 
@@ -11,15 +11,7 @@ This is a streamer to transport Redis records to Google BigQuery using stream in
 * Archive to Google Cloud Storage if payload size exceeds limits
 * Auto correct invalid records
 * Failure handlings with exponential retries
-* Compatible with node.js > 0.10 and io.js > 1.0
-
-## Changes from v2 to v3
-
-* Removed archiving feature, as BQ increased row size
-* Better job scheduling and reduced memory usage by fixed number of senders and job pool
-* Migrated to Node 4.2 with co.js
-* Add stats reporting to debug log
-* Updated dependencies: `google-node-sdk` => `gcloud-node`, `redis`-> `ioredis` 
+* Compatible with node.js >= 12
 
 ## Get Started
 
