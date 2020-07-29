@@ -1,6 +1,6 @@
 {
   "name": "bigquery-streamer",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "description": "A BigQuery streamer for streaming data from Redis",
   "main": "index.js",
   "scripts": {
@@ -10,16 +10,19 @@
   "author": {
     "name": "AfterShip Limited"
   },
+  "engines": {
+    "node": ">=10.0"
+  },
   "license": "ISC",
   "files": [
     "lib/"
   ],
   "dependencies": {
-    "@google-cloud/bigquery": "^4.7.0",
+    "@google-cloud/bigquery": "^5.1.0",
     "debug-logger": "^0.4.1",
     "ioredis": "^4.17.3",
-    "lodash": "^4.17.15",
-    "moment": "^2.26.0",
+    "lodash": "^4.17.19",
+    "moment": "^2.27.0",
     "weighted": "^0.3.0"
   }
 }
